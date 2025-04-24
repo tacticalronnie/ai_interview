@@ -1,18 +1,15 @@
-// Import the functions you need from the SDKs you need
 import { initializeApp, getApp, getApps } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyB6SHWO_ykHdB1PT_v5XJ71RmL_cwRhbYk",
-  authDomain: "prepwise-5fab4.firebaseapp.com",
-  projectId: "prepwise-5fab4",
-  storageBucket: "prepwise-5fab4.firebasestorage.app",
-  messagingSenderId: "476475363963",
-  appId: "1:476475363963:web:916616c508d4239cce88de",
-  measurementId: "G-ZC6LH0PQH6",
+  apiKey: "AIzaSyDoSFxCOKwwMIcMp2wrbYu08z7d6FPYzl4",
+  authDomain: "aiinterview-57f3f.firebaseapp.com",
+  projectId: "aiinterview-57f3f",
+  storageBucket: "aiinterview-57f3f.firebasestorage.app",
+  messagingSenderId: "309419524176",
+  appId: "1:309419524176:web:2e8fe5c0a6075e798b5155",
+  measurementId: "G-6H0990ZF0D",
 };
 
 // Initialize Firebase
